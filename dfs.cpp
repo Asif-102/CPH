@@ -23,7 +23,7 @@ void dfs(int node){
 int main() {
     int nodes, edges;
     cin >> nodes >> edges;
-    for(int i  = 1; i <= nodes; i++){
+    for(int i  = 1; i <= edges; i++){
         int u, v;
         cin >> u >> v;
         adj_list[u].push_back(v);
