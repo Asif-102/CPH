@@ -21,6 +21,6 @@ void __print(const T &x) {int f = 0; cerr << "\033[1;36m" << '{' << "\033[0m"; f
 void _print() {cerr << "\033[1;33m ] \033[0m"<<endl;}
 template <typename T, typename... V>
 void _print(T t, V... v) {__print(t); if (sizeof...(v)) cerr << ", "; _print(v...);}
-#define debug(x...) cerr << #x << " = \033[1;33m [ \033[0m"; _print(x)
+#define debug(x...) cerr << "\033[1;35m" << #x << "\033[0m" << " = \033[1;33m [ \033[0m"; _print(x)
 template<typename T,typename T1>T amax(T &a,T1 b){if(b>a)a=b;return a;}
 template<typename T,typename T1>T amin(T &a,T1 b){if(b<a)a=b;return a;}
