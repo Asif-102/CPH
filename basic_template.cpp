@@ -1,14 +1,18 @@
 #include <bits/stdc++.h>
 
-#define long long long int
-#define DEBUG
 using namespace std;
+
+#ifndef ONLINE_JUDGE
+#include "DEBUG/debug.h"
+#else
+#define debug(x...) 42
+#endif
 
 // @author: Asif_102
 
 struct test {
     void solve() {
-        
+		
     }
 };
 
